@@ -1,2 +1,3 @@
 # latexmk-sidecar
- compile-time automatic installation of tex packages. 
+
+A little script: everytime when latexmk failed, match error messages that suggests some package is missing, invoke tlmgr to install these packages and try latexmk again. 
